@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
     HTML
-    
+
     Hipertext (Hiper textos): São textos que aceitam links e audio visual
     Markup (Marcação) Marcação feita com <tags>
     Language: Linguagem
@@ -10,49 +10,12 @@
 <html> <!-- Tag HTML -->
 
     <head>
-        <meta charset="UTF-8">  
+        <meta charset="UTF-8">
         <!-- Responsável por receber configurações da página -->
-        <title>Casa Criativa</title>
+		<title>Casa Criativa</title>
+		
+		<link rel="stylesheet" href="style.css">
 
-        <style>
-
-            /*
-            CSS
-
-            Cascading StyleSheet
-
-            */
-
-            body {
-                background: #e5e5e5;
-                color: #25282b;
-                text-align: center;
-                
-            }
-
-            button {
-                color: #ff5e84;
-                border: none;
-                font-weight: bold;
-                background: none;
-            }
-
-            button.fat {
-                color: #e5e5e5; 
-                background: #ff5e84;
-            }
-
-            #footer a {
-                color: #25282b;
-                text-decoration: none;
-            }
-
-            .hide {
-                display: none;
-            }
-
-
-        </style>
     </head>
 
     <body>
@@ -77,11 +40,11 @@
         <button class="fat">Ver Ideias</button>
 
         <p id="footer">
-            Com ❤ <a href="http://rocketseat.com.br">Rocketseat</a> 
+            Com ❤ <a href="http://rocketseat.com.br">Rocketseat</a>
         </p>
 
         <script>
-            
+
             document
                 .querySelector("button.fat")
                 .addEventListener("click", function(){
@@ -90,9 +53,9 @@
                         .classList
                         .toggle("hide")
                 })
-                
+
         </script>
-        
+
     </body>
 
 </html>
