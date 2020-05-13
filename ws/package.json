@@ -1,0 +1,27 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuel61lima/casa-criativa.git"
+  },
+  "keywords": [],
+  "author": "Samuel Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel61lima/casa-criativa/issues"
+  },
+  "homepage": "https://github.com/samuel61lima/casa-criativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "nunjucks": "^3.2.1"
+  }
+}
